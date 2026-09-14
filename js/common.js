@@ -4,3 +4,16 @@ script.src = 'https://code.jquery.com/jquery-3.7.1.min.js';
 script.integrity = 'sha256-/JqT3SQfawRcv/BIHPThkB1b7R3JZ6p3xj6q0Y9Q2Q=';
 script.crossOrigin = 'anonymous';
 document.head.appendChild(script);
+
+
+
+/**
+ * Redirect /programs/ to /programs/diplomas/
+ */
+function chellsey_programs_redirect() {
+    if ( is_page('programs') ) {
+        wp_safe_redirect( home_url('/programs/diplomas/'), 301 );
+        exit;
+    }
+}
+add_action('template_redirect', 'chellsey_programs_redirect');
