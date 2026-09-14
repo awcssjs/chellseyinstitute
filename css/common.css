@@ -1,0 +1,52 @@
+/* h p s  */
+h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-width:700px;font-family:'Georgia',sans-serif!important; text-transform: uppercase;}
+@media (max-width:767px){
+    h1.home_h1{font-size:24px; }
+    h1.home_h1 br{  display:none;}
+}
+
+.elementor .xyz-list {color:#590611;font-weight: 500; display: inline-block;}
+/* next */
+.custom-download-icon{width:53px;height:53px;border-radius:50%;background:#9d1536;display:inline-flex;align-items:center;justify-content:center;}
+.custom-download-icon i{color:#fff;font-size:25px;}
+.onlyiconxyz{display:inline-block;width:34px;height:24px;position:relative;background:#8b1830;clip-path:polygon(50% 0,100% 30%,50% 60%,0 30%);}
+.onlyiconxyz::before{content:"";position:absolute;width:24px;height:8px;left:5px;top:11px;background:#8b1830;border-radius:1px;}
+.onlyiconxyz::after{content:"";position:absolute;width:2px;height:9px;right:3px;top:8px;background:#8b1830;box-shadow:2px 7px 0 -0.2px #8b1830;}
+.xyziconchell{display:inline-flex;align-items:center;justify-content:center;}
+.xyziconchell i{font-size:24px;color:#8b1e2d;}
+
+/* Disable click on parent menu items */
+.menu-item-has-children>a{pointer-events:none;cursor:default;}
+.menu-item-has-children .sub-menu a{pointer-events:auto;cursor:pointer;}
+
+/* Page_2_Diplomas */
+.Dipxyz-form-wrapper{width:100%;padding:7px;box-sizing:border-box;/*background:#eee4e4;*/border-radius:4px;}
+.Dipxyz-form-container{width:100%;max-width:100%;margin:0 auto;padding:10px 16px 14px;box-sizing:border-box;background:rgba(255,255,255,.94);border-radius:4px;}
+.Dipxyz-form-title{margin:0 0 22px;text-align:center;color:#590611;font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.2;font-weight:500;text-transform:uppercase;font-weight: 600;}
+.Dipxyz-form{width:100%;}
+.Dipxyz-row{display:grid;grid-template-columns:1fr 1fr;column-gap:12px;width:100%;}
+.Dipxyz-field,.Dipxyz-single-field,.Dipxyz-message-field{margin-bottom:10px;}
+.Dipxyz-label{display:block;margin-bottom:10px;color:#222;font-family:Georgia,sans-serif;font-size:15px;line-height:1.25;font-weight:600;}
+.Dipxyz-label span{color:#777;font-size:10px;font-weight:400;margin-left:3px;}
+.Dipxyz-input,.Dipxyz-select,.Dipxyz-textarea{width:100%;box-sizing:border-box;border:1px solid #9c9c9c;border-radius:0;background:#fff;color:#333;font-family:Georgia,sans-serif;font-size:15px;outline:none;}
+.Dipxyz-input{height:29px;padding:5px 7px;}
+.Dipxyz-select{width:100%;/*width:250px;*/height:30px;padding:4px 7px;appearance:auto;}
+.Dipxyz-course-field{margin-bottom:8px;}
+.Dipxyz-textarea{display:block;min-height:48px;height:48px;padding:6px 7px;resize:vertical;}
+.Dipxyz-input:focus,.Dipxyz-select:focus,.Dipxyz-textarea:focus{border-color:#777;}
+.Dipxyz-submit-wrapper{margin-top:10px;}
+.Dipxyz-submit{min-width:80px;height:36px;padding:7px 18px;border:1px solid #d9a3a3;border-radius:20px;background:#fff;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:11px;cursor:pointer;transition:all .2s ease;}
+.Dipxyz-submit:hover{background:#f8eeee;border-color:#b97878;}
+@media(max-width:700px){.Dipxyz-form-container{padding:15px 20px 20px;}.Dipxyz-form-title{font-size:22px;margin-bottom:18px;}.Dipxyz-row{grid-template-columns:1fr;gap:0;}.Dipxyz-select{width:100%;}.Dipxyz-input{height:34px;}.Dipxyz-textarea{height:80px;}}
+.ciricoxyz{width:28px;height:28px;background:#8b0d1c;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#fff;font-size:11px;line-height:1;text-decoration:none;transition:background .2s ease;}
+.ciricoxyz i{margin-left:1px;}
+.ciricoxyz:hover{background:#6f0916;color:#fff;}
+/* all page banner  */
+.bnrsecxyz{width:100%;margin:0;padding:0;overflow:hidden;line-height:0;}
+.bnrsecxyz-img{display:block;width:100%;height:auto;max-width:100%;object-fit:cover;}
+@media(max-width:1024px){.bnrsecxyz-img{width:100%;height:auto;}}
+@media(max-width:767px){.bnrsecxyz{width:100%;}.bnrsecxyz-img{width:100%;height:auto;object-fit:cover;}}
+@media(max-width:480px){.bnrsecxyz-img{width:100%;height:auto;}}
+/* reverse */
+ @media (max-width:768px){.reverse-mobile > .elementor-container{display:flex;flex-direction:column-reverse!important;}} 
+
