@@ -49,4 +49,102 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 @media(max-width:480px){.bnrsecxyz-img{width:100%;height:auto;}}
 /* reverse */
  @media (max-width:768px){.reverse-mobile > .elementor-container{display:flex;flex-direction:column-reverse!important;}} 
+/* page 10 */
+.injetcrtxyz{display:flex;align-items:center;width:100%;gap:9px;}
+.injetcrtxyz span{font-family:Arial,sans-serif;font-size:15px;font-weight:500;letter-spacing:2px;color:#590611;white-space:nowrap;font-weight: 700;}
+.injetcrtxyz i{flex:0 0 38px;height:2px;background:#8b2635;display:block;}
+@media(max-width:767px){.injetcrtxyz{gap:14px;}.injetcrtxyz span{font-size:11px;letter-spacing:1.6px;}.injetcrtxyz i{flex-basis:32px;}}
+@media(max-width:480px){.injetcrtxyz{gap:10px;}.injetcrtxyz span{font-size:10px;letter-spacing:1.3px;}.injetcrtxyz i{flex-basis:28px;height:1.5px;}}
+/* page 11  */
+.boxotxyz{width:62px;height:62px;background:#fdf0f2;border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.boxotxyz i{font-size:30px;color:#7d1f2b;line-height:1;}
+/* ===== Thread Lift Section ===== */
+.threliftxyz-section{width:100%;max-width:1100px;margin:0 auto;padding:30px 25px;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;color:#344054;}
+.threliftxyz-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:stretch;}
+.threliftxyz-left{position:relative;padding:0 10px 0 65px;box-sizing:border-box;}
+.threliftxyz-left-icon{position:absolute;left:0;top:0;width:52px;height:52px;border-radius:50%;background:#fdf0f3;display:flex;align-items:center;justify-content:center;color:#a91d38;font-size:25px;font-weight:bold;}
+.threliftxyz-left-icon::before{content:"♙";font-size:28px;transform:rotate(0deg);}
+.threliftxyz-title{margin:0 0 5px;color:#a51d38;font-family:Georgia,"Times New Roman",serif;font-size:16px;line-height:1.15;font-weight:700;}
+.threliftxyz-text{margin:7px 0 10px;font-size:13.5px;line-height:1.5;font-family: "Arial";color: #000;}
+.threliftxyz-subtitle{margin:8px 0 5px;font-size:13.5px;line-height:1.35;font-weight:700;}
+.threliftxyz-list{list-style:none;margin:0;padding:0;}
+.threliftxyz-list li{position:relative;margin:4px 0;padding-left:20px;font-size:13.5px!important;line-height:1.35;color: #000;}
+.threliftxyz-list li::before{content:"✓";position:absolute;left:0;top:0;width:14px;height:14px;border-radius:50%;background:#a51d38;color:#fff;font-size:9px;line-height:14px;text-align:center;font-weight:bold;}
+.threliftxyz-note{margin-top:16px;font-size:13.5px;line-height:1.4;color: #000;}
+.threliftxyz-right{position:relative;padding:0 0 0 65px;box-sizing:border-box;}
+.threliftxyz-right-icon{position:absolute;left:0;top:0;width:52px;height:52px;border-radius:50%;background:#fdf0f3;display:flex;align-items:center;justify-content:center;color:#a51d38;}
+.threliftxyz-right-icon::before{content:"⚙";font-size:28px;}
+.threliftxyz-procedure-title{margin:0 0 9px;color:#a51d38;font-family:Georgia,"Times New Roman",serif;font-size:16px;line-height:1.15;font-weight:700;}
+.threliftxyz-card{background:#fdf1f4;border-radius:7px;padding:10px 12px;margin-bottom:8px;}
+.threliftxyz-card-title{margin:0 0 5px;color:#a51d38;font-size:13.5px;line-height:1.3;font-weight:700;}
+.threliftxyz-card .threliftxyz-list li{margin:3px 0;font-size:10.5px;}
+.threliftxyz-card .threliftxyz-list li::before{width:13px;height:13px;line-height:13px;font-size:8px;}
+.threliftxyz-bottom-text{margin:7px 0 0;font-size:13.5px;line-height:1.4;color:#000;}
+@media(max-width:767px){.threliftxyz-section{padding:25px 18px;}.threliftxyz-wrapper{grid-template-columns:1fr;gap:35px;}.threliftxyz-left,.threliftxyz-right{padding-left:65px;}.threliftxyz-title{font-size:22px;}.threliftxyz-procedure-title{font-size:21px;}.threliftxyz-text,.threliftxyz-note,.threliftxyz-bottom-text{font-size:13px;}.threliftxyz-list li{font-size:12.5px;}.threliftxyz-card .threliftxyz-list li{font-size:11.5px;}}
+@media(max-width:480px){.threliftxyz-section{padding:20px 15px;}.threliftxyz-left,.threliftxyz-right{padding-left:58px;}.threliftxyz-left-icon,.threliftxyz-right-icon{width:45px;height:45px;}.threliftxyz-left-icon::before,.threliftxyz-right-icon::before{font-size:23px;}.threliftxyz-title,.threliftxyz-procedure-title{font-size:19px;}.threliftxyz-text,.threliftxyz-note,.threliftxyz-bottom-text{font-size:12px;}.threliftxyz-list li{font-size:11.5px;}.threliftxyz-card{padding:9px 10px;}}
+/* ================================
+   THREAD LIFT PROGRAM INFORMATION
+   ================================ */
+.threliftxyzq-section{width:100%;max-width:100%;margin:0 auto;padding:20px 30px;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;color:#3f4650;}
+.threliftxyzq-grid-top{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;}
+.threliftxyzq-grid-bottom{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px;}
+.threliftxyzq-box{background:#fffafa;border:1px solid #f3e7e9;padding:13px 15px;box-sizing:border-box;min-width:0;border-radius: 12px;}
+.threliftxyzq-box-inner{display:flex;align-items:flex-start;gap:13px;}
+.threliftxyzq-icon{flex:0 0 48px;width:48px;height:48px;border-radius:50%;background:#fbecef;display:flex;align-items:center;justify-content:center;color:#a51d38;font-size:25px;box-sizing:border-box;}
+.threliftxyzq-icon-target::before{content:"◎";font-size:32px;font-weight:bold;}
+.threliftxyzq-icon-book::before{content:"▣";font-size:26px;}
+.threliftxyzq-icon-team::before{content:"♟";font-size:27px;}
+.threliftxyzq-icon-chart::before{content:"▥";font-size:28px;}
+.threliftxyzq-icon-calendar::before{content:"▦";font-size:28px;}
+.threliftxyzq-icon-document::before{content:"▤";font-size:28px;}
+.threliftxyzq-heading{margin:0 0 5px;color:#a51d38;font-family:Georgia,"Times New Roman",serif;font-size:16px;line-height:1.5;font-weight:700;}
+.threliftxyzq-subheading{margin:0 0 7px;color:#a51d38;font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.15;font-weight:700;}
+.threliftxyzq-text{margin:0 0 6px;font-size:13.5px;line-height:1.4;color:#000;font-family: "Arial";}
+.threliftxyzq-intro{margin:0 0 8px;font-size:13.5px;line-height:1.4;color:#000;}
+.threliftxyzq-list{list-style:none;padding:0;margin:5px 0 0;}
+.threliftxyzq-list li{position:relative;padding-left:17px;margin:4px 0;font-size:13.5px;line-height:1.4;color:#000;}
+.threliftxyzq-list li::before{content:"●";position:absolute;left:0;top:0;color:#a51d38;font-size:11px;}
+.threliftxyzq-black-list{list-style:none;padding:0;margin:5px 0 0;}
+.threliftxyzq-black-list li{position:relative;padding-left:15px;margin:4px 0;font-size:13.5px;line-height:1.4;color:#000;}
+.threliftxyzq-black-list li::before{content:"•";position:absolute;left:0;color:#590611;font-size:19px;}
+.threliftxyzq-right-stack{display:flex;flex-direction:column;gap:4px;}
+.threliftxyzq-career-list{list-style:none;padding:0;margin:5px 0 0;}
+.threliftxyzq-career-list li{position:relative;padding-left:17px;margin:4px 0;font-size:13.5px;line-height:1.4;color:#000;}
+.threliftxyzq-career-list li::before{content:"●";position:absolute;left:0;color:#a51d38;font-size:10px;}
+.threliftxyzq-nested{margin:4px 0 0 12px;padding:0;list-style:none;}
+.threliftxyzq-nested li{position:relative;padding-left:13px;margin:3px 0;font-size:13.5px;color:#000;}
+.threliftxyzq-nested li::before{content:"•";position:absolute;left:0;color:#333;}
+.threliftxyzq-bottom-text{margin:0 0 5px;font-size:13.5px;line-height:1.4;color:#000;}
+.threliftxyzq-note{margin:8px 0 0;font-size:13.5px;line-height:1.3;font-style:italic;color:#000;}
+@media(max-width:900px){.threliftxyzq-grid-top{grid-template-columns:1fr 1fr;}.threliftxyzq-right-stack{grid-column:span 2;display:grid;grid-template-columns:1fr 1fr;}.threliftxyzq-grid-bottom{grid-template-columns:1fr;}}
+@media(max-width:600px){.threliftxyzq-section{padding:15px 10px;}.threliftxyzq-grid-top,.threliftxyzq-grid-bottom{grid-template-columns:1fr;}.threliftxyzq-right-stack{grid-column:auto;display:flex;}.threliftxyzq-box{padding:15px;}.threliftxyzq-heading{font-size:20px;}.threliftxyzq-subheading{font-size:19px;}.threliftxyzq-text,.threliftxyzq-intro,.threliftxyzq-list li,.threliftxyzq-career-list li,.threliftxyzq-black-list li{font-size:12px;}.threliftxyzq-icon{flex-basis:50px;width:50px;height:50px;}}
+/* =========================================
+   MESOTHERAPY LAYOUT
+   CLASS PREFIX: mesothexyz
+========================================= */
+.mesothexyz-wrapper{width:100%;max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:start;font-family:Arial,Helvetica,sans-serif;box-sizing:border-box;}
+.mesothexyz-wrapper *, .mesothexyz-wrapper *::before, .mesothexyz-wrapper *::after{box-sizing:border-box;}
+.mesothexyz-column{display:flex;flex-direction:column;gap:8px;}
+.mesothexyz-card{position:relative;display:flex;align-items:flex-start;background:linear-gradient(135deg,#fffafa 0%,#fdf5f6 100%);border-radius:5px;padding:13px 12px;overflow:hidden;}
+.mesothexyz-icon{flex:0 0 34px;width:34px;height:34px;border-radius:50%;background:#f9e6e9;display:flex;align-items:center;justify-content:center;margin-right:10px;color:#a8202c;font-size:21px;font-weight:700;line-height:1;}
+.mesothexyz-icon span{display:flex;align-items:center;justify-content:center;}
+.mesothexyz-content{flex:1;min-width:0;}
+.mesothexyz-content h3{margin:0 0 6px;padding:0;color:#a8202c;font-family:Georgia,"Times New Roman",serif;font-size:16px;line-height:1.2;font-weight:700;}
+.mesothexyz-content p{margin:0 0 7px;padding:0;color:#000;font-size:13.5px;line-height:1.35;}
+.mesothexyz-content ul{margin:5px 0 8px;padding:0;list-style:none;}
+.mesothexyz-content ul li{position:relative;margin:0 0 4px;padding-left:18px;color:#000;font-size:13.5px;line-height:1.3;}
+.mesothexyz-content ul li::before{content:"✓";position:absolute;left:0;top:2px;width:12px;height:12px;border-radius:50%;background:#a8202c;color:#fff;font-size:8px;line-height:12px;text-align:center;font-weight:700;}
+.mesothexyz-details{margin-top:5px!important;}
+.mesothexyz-details li{padding-left:0!important;margin-bottom:4px!important;font-size:13.5px;line-height:1.3;}
+.mesothexyz-details li::before{display:none;}
+.mesothexyz-location{margin-left:18px;color:#000;font-size:13.5px;line-height:1.35;}
+.mesothexyz-location span{color:#a8202c;font-weight:700;margin-right:4px;}
+.mesothexyz-left .mesothexyz-card:first-child{min-height:194px;}
+.mesothexyz-left .mesothexyz-large-card{min-height:190px;}
+.mesothexyz-right .mesothexyz-card:first-child{min-height:194px;}
+.mesothexyz-right .mesothexyz-card:nth-child(2){min-height:101px;}
+.mesothexyz-right .mesothexyz-program-card{min-height:96px;}
+@media(max-width:767px){.mesothexyz-wrapper{grid-template-columns:1fr;gap:10px;}.mesothexyz-column{gap:10px;}.mesothexyz-card,.mesothexyz-left .mesothexyz-card:first-child,.mesothexyz-left .mesothexyz-large-card,.mesothexyz-right .mesothexyz-card:first-child,.mesothexyz-right .mesothexyz-card:nth-child(2),.mesothexyz-right .mesothexyz-program-card{min-height:auto;}.mesothexyz-card{padding:15px;}.mesothexyz-content h3{font-size:16px;}.mesothexyz-content p,.mesothexyz-content ul li,.mesothexyz-details li,.mesothexyz-location{font-size:13.5px;}}
+@media(max-width:480px){.mesothexyz-wrapper{gap:8px;}.mesothexyz-column{gap:8px;}.mesothexyz-card{padding:12px;}.mesothexyz-icon{flex:0 0 31px;width:31px;height:31px;margin-right:8px;font-size:19px;}.mesothexyz-content h3{font-size:16px;}.mesothexyz-content p,.mesothexyz-content ul li,.mesothexyz-details li,.mesothexyz-location{font-size:13.5px;}}
+
 
