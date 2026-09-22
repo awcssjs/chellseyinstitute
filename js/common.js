@@ -10,10 +10,28 @@ document.head.appendChild(script);
 /**
  * Redirect /programs/ to /programs/diplomas/
  */
-function chellsey_programs_redirect() {
-    if ( is_page('programs') ) {
-        wp_safe_redirect( home_url('/programs/diplomas/'), 301 );
-        exit;
-    }
+// function chellsey_programs_redirect() {
+//     if ( is_page('programs') ) {
+//         wp_safe_redirect( home_url('/programs/diplomas/'), 301 );
+//         exit;
+//     }
+// }
+// add_action('template_redirect', 'chellsey_programs_redirect');
+
+
+// new code 
+// Redirect /programs/ to /programs/diplomas/
+if (
+    window.location.pathname === '/programs/' ||
+    window.location.pathname === '/programs'
+) {
+    window.location.replace('/programs/diplomas/');
 }
-add_action('template_redirect', 'chellsey_programs_redirect');
+
+// Redirect /admissions/ to /admissions/apply/
+if (
+    window.location.pathname === '/admissions/' ||
+    window.location.pathname === '/admissions'
+) {
+    window.location.replace('/admissions/apply/');
+}
