@@ -157,10 +157,10 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .xyziconchell-cir svg{width:28px;height:28px;fill:none;stroke:#8b1e2d;stroke-width:5;stroke-linecap:round;}
 @media(max-width:767px){.xyziconchell-cir{width:40px;height:40px;}.xyziconchell-cir i{width:40px;height:40px;font-size:19px;}.xyziconchell-cir svg{width:24px;height:24px;stroke-width:4;}}
 /* 2209026 */
-.xyziconchell-cirs{width:65px;height:65px;display:flex;align-items:center;justify-content:center;background:#fdf0f2;border-radius:50%;flex-shrink:0;margin:0;padding:0;}
+/* .xyziconchell-cirs{width:65px;height:65px;display:flex;align-items:center;justify-content:center;background:#fdf0f2;border-radius:50%;flex-shrink:0;margin:0;padding:0;}
 .xyziconchell-cirs i{width:65px;height:65px;display:flex;align-items:center;justify-content:center;font-size:40px;line-height:1;color:#8b1e2d;margin:0;padding:0;}
 .xyziconchell-cirs svg{width:28px;height:28px;fill:none;stroke:#8b1e2d;stroke-width:5;stroke-linecap:round;}
-@media(max-width:767px){.xyziconchell-cirs{width:40px;height:40px;}.xyziconchell-cirs i{width:40px;height:40px;font-size:19px;}.xyziconchell-cir svg{width:24px;height:24px;stroke-width:4;}}
+@media(max-width:767px){.xyziconchell-cirs{width:40px;height:40px;}.xyziconchell-cirs i{width:40px;height:40px;font-size:19px;}.xyziconchell-cir svg{width:24px;height:24px;stroke-width:4;}} */
 
 
 /* Small Triangle / Arrow */
