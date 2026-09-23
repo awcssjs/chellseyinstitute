@@ -28,17 +28,18 @@ if (
     window.location.replace('/programs/diplomas/');
 }
 
-// Redirect /admissions/ to /admissions/apply/
+// Redirect /admissions/ to /admissions/admissions-process/
 if (
     window.location.pathname === '/admissions/' ||
     window.location.pathname === '/admissions'
 ) {
-    window.location.replace('/admissions/apply/');
+    window.location.replace('/admissions/admissions-process/');
 }
-// Redirect /spa-services/ to /spa-services/apply/
+
+// Redirect /spa-services/ to /spa-services/facial-treatment/
 if (
     window.location.pathname === '/spa-services/' ||
     window.location.pathname === '/spa-services'
 ) {
-    window.location.replace('/spa-services/apply/');
+    window.location.replace('/spa-services/facial-treatment/');
 }
