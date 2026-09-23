@@ -35,3 +35,10 @@ if (
 ) {
     window.location.replace('/admissions/apply/');
 }
+// Redirect /spa-services/ to /spa-services/apply/
+if (
+    window.location.pathname === '/spa-services/' ||
+    window.location.pathname === '/spa-services'
+) {
+    window.location.replace('/spa-services/apply/');
+}
