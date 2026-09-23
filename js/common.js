@@ -37,17 +37,17 @@ if (
 }
 
 // Redirect /spa-services/ to /spa-services/facial-treatment/
-// if (
-//     window.location.pathname === '/spa-services/' ||
-//     window.location.pathname === '/spa-services'
-// ) {
-//     window.location.replace('/spa-services/facial-treatment/');
-// }
+if (
+    window.location.pathname === '/spa-services/' ||
+    window.location.pathname === '/spa-services'
+) {
+    window.location.replace('/spa-services/facial-treatment/');
+}
 
-document.addEventListener('DOMContentLoaded', function () {
-    const path = window.location.pathname.replace(/\/+$/, '');
+// document.addEventListener('DOMContentLoaded', function () {
+//     const path = window.location.pathname.replace(/\/+$/, '');
 
-    if (path === '/spa-services') {
-        window.location.replace('/spa-services/facial-treatment/');
-    }
-});
+//     if (path === '/spa-services') {
+//         window.location.replace('/spa-services/facial-treatment/');
+//     }
+// });
