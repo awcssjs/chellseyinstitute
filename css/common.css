@@ -197,7 +197,7 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .xyzChellseyftr__location{min-height:78px;padding:0 25px;border-right:1px solid #e5e5e5;}
 .xyzChellseyftr__location h3{margin:0 0 7px;color:#a90018;font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:18px;font-weight:700;}
 .xyzChellseyftr__pin{display:inline-flex;align-items:center;justify-content:center;width:17px;height:20px;margin-right:5px;color:#a90018;font-size:13px;}
-.xyzChellseyftr__location a,.xyzChellseyftr__address{display:flex;align-items:flex-start;gap:7px;color:#444;text-decoration:none;font-size:9.5px;line-height:14px;font-weight:400;}
+.xyzChellseyftr__location a,.xyzChellseyftr__address{display:flex;align-items:flex-start;gap:7px;color:#000;text-decoration:none;font-size:15px;line-height:1.4;font-weight:400;}
 .xyzChellseyftr__location a{margin-bottom:2px;}
 .xyzChellseyftr__location a:hover{color:#a90018;}
 .xyzChellseyftr__icon{width:13px;flex:0 0 13px;color:#a90018;font-size:15px;line-height:1.4;text-align:center;}
