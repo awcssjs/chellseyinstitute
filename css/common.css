@@ -200,7 +200,7 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .xyzChellseyftr__location a,.xyzChellseyftr__address{display:flex;align-items:flex-start;gap:7px;color:#444;text-decoration:none;font-size:9.5px;line-height:14px;font-weight:400;}
 .xyzChellseyftr__location a{margin-bottom:2px;}
 .xyzChellseyftr__location a:hover{color:#a90018;}
-.xyzChellseyftr__icon{width:13px;flex:0 0 13px;color:#a90018;font-size:10px;line-height:14px;text-align:center;}
+.xyzChellseyftr__icon{width:13px;flex:0 0 13px;color:#a90018;font-size:15px;line-height:1.4;text-align:center;}
 .xyzChellseyftr__social{min-height:78px;padding-left:28px;}
 .xyzChellseyftr__social h3{margin:0 0 12px;color:#a90018;font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:18px;font-weight:700;}
 .xyzChellseyftr__socialLinks{display:flex;align-items:center;gap:9px;}
