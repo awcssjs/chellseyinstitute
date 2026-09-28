@@ -173,3 +173,40 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 /* mobile view  br*/
 @media(max-width: 767px) { .pre-m-viewbr br {  display:none; }}
 
+/* 220926 */
+.textcir{width:35px;height:35px;background:#b20d32;color:#fff;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:18px;font-weight:600;line-height:1;}
+
+/* 2209026 */
+.xyziconchell-cirs{width:65px;height:65px;display:flex;align-items:center;justify-content:center;background:#fdf0f2;border-radius:50%;flex-shrink:0;margin:0;padding:0;}
+.xyziconchell-cirs i{width:65px;height:65px;display:flex;align-items:center;justify-content:center;font-size:40px;line-height:1;color:#8b1e2d;margin:0;padding:0;}
+.xyziconchell-cirs svg{width:28px;height:28px;fill:none;stroke:#8b1e2d;stroke-width:5;stroke-linecap:round;}
+@media(max-width:767px){.xyziconchell-cirs{width:40px;height:40px;}.xyziconchell-cirs i{width:40px;height:40px;font-size:19px;}.xyziconchell-cirs svg{width:24px;height:24px;stroke-width:4;}}
+
+/* 280926 */
+/* ================================
+   CHELLSEY FOOTER
+   ================================ */
+.xyzChellseyftr{width:100%;background:#fff;border-top:2px solid #a90018;font-family:Arial,Helvetica,sans-serif;color:#333;box-sizing:border-box;}
+.xyzChellseyftr *, .xyzChellseyftr *::before, .xyzChellseyftr *::after{box-sizing:border-box;}
+.xyzChellseyftr__inner{width:100%;max-width:1250px;margin:0 auto;padding:18px 35px;display:grid;grid-template-columns:1.35fr 1fr 1fr .75fr;align-items:center;}
+.xyzChellseyftr__brand{min-height:78px;padding-right:35px;border-right:1px solid #e5e5e5;}
+.xyzChellseyftr__logoLink{display:inline-flex;align-items:center;text-decoration:none;line-height:0;outline:none;}
+.xyzChellseyftr__logoImage{display:block;width:auto;max-width:165px;height:58px;object-fit:contain;object-position:left center;transition:opacity .2s ease;}
+.xyzChellseyftr__logoLink:hover .xyzChellseyftr__logoImage{opacity:.85;}
+.xyzChellseyftr__brand p{margin:7px 0 0;color:#000;font-size:15px;line-height:1.4;font-weight:400;}
+.xyzChellseyftr__location{min-height:78px;padding:0 25px;border-right:1px solid #e5e5e5;}
+.xyzChellseyftr__location h3{margin:0 0 7px;color:#a90018;font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:18px;font-weight:700;}
+.xyzChellseyftr__pin{display:inline-flex;align-items:center;justify-content:center;width:17px;height:20px;margin-right:5px;color:#a90018;font-size:13px;}
+.xyzChellseyftr__location a,.xyzChellseyftr__address{display:flex;align-items:flex-start;gap:7px;color:#444;text-decoration:none;font-size:9.5px;line-height:14px;font-weight:400;}
+.xyzChellseyftr__location a{margin-bottom:2px;}
+.xyzChellseyftr__location a:hover{color:#a90018;}
+.xyzChellseyftr__icon{width:13px;flex:0 0 13px;color:#a90018;font-size:10px;line-height:14px;text-align:center;}
+.xyzChellseyftr__social{min-height:78px;padding-left:28px;}
+.xyzChellseyftr__social h3{margin:0 0 12px;color:#a90018;font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:18px;font-weight:700;}
+.xyzChellseyftr__socialLinks{display:flex;align-items:center;gap:9px;}
+.xyzChellseyftr__socialLinks a{width:23px;height:23px;border-radius:50%;background:#a90018;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:all .2s ease;}
+.xyzChellseyftr__socialLinks a i{font-size:12px;line-height:1;font-style:normal;}
+.xyzChellseyftr__socialLinks a:hover{background:#780012;color:#fff;transform:translateY(-2px);}
+@media(max-width:900px){.xyzChellseyftr__inner{grid-template-columns:1fr 1fr;gap:25px 0;padding:25px;}.xyzChellseyftr__brand{border-right:1px solid #e5e5e5;}.xyzChellseyftr__location:nth-child(3){border-right:none;}.xyzChellseyftr__social{padding-left:25px;}.xyzChellseyftr__logoImage{max-width:155px;height:54px;}}
+@media(max-width:600px){.xyzChellseyftr__inner{display:flex;flex-direction:column;align-items:stretch;padding:25px 20px;gap:0;}.xyzChellseyftr__brand,.xyzChellseyftr__location,.xyzChellseyftr__social{width:100%;min-height:auto;padding:18px 0;border-right:none;border-bottom:1px solid #e5e5e5;}.xyzChellseyftr__brand{padding-top:0;}.xyzChellseyftr__social{border-bottom:none;padding-bottom:0;}.xyzChellseyftr__logoImage{width:auto;max-width:180px;height:58px;}.xyzChellseyftr__brand p{margin-top:8px;font-size:11px;line-height:17px;}.xyzChellseyftr__location h3,.xyzChellseyftr__social h3{font-size:16px;line-height:20px;}.xyzChellseyftr__location a,.xyzChellseyftr__address{font-size:10px;line-height:16px;}.xyzChellseyftr__icon{font-size:10px;line-height:16px;}}
+@media(max-width:380px){.xyzChellseyftr__inner{padding:20px 15px;}.xyzChellseyftr__logoImage{max-width:155px;height:auto;}.xyzChellseyftr__socialLinks{gap:7px;}.xyzChellseyftr__socialLinks a{width:22px;height:22px;}.xyzChellseyftr__socialLinks a i{font-size:11px;}}
