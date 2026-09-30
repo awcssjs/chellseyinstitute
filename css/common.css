@@ -195,7 +195,7 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .xyzChellseyftr__logoLink:hover .xyzChellseyftr__logoImage{opacity:.85;}
 .xyzChellseyftr__brand p{margin:7px 0 0;color:#000;font-size:15px;line-height:1.4;font-weight:400;}
 .xyzChellseyftr__location{min-height:78px;padding:0 25px;border-right:1px solid #e5e5e5;}
-.xyzChellseyftr__location h3{margin:0 0 7px;color:#590611;font-family:Georgia,"Times New Roman",serif;font-size:16px;line-height:1.4;font-weight:700;}
+.xyzChellseyftr__location h3{margin:0 0 7px;color:#a90018;font-family:Georgia,"Times New Roman",serif;font-size:16px;line-height:1.4;font-weight:700;}
 .xyzChellseyftr__pin{display:inline-flex;align-items:center;justify-content:center;width:17px;height:20px;margin-right:5px;color:#590611;font-size:16px;}
 .xyzChellseyftr__location a,.xyzChellseyftr__address{display:flex;align-items:flex-start;gap:7px;color:#000;text-decoration:none;font-size:15px;line-height:1.4;font-weight:400;}
 .xyzChellseyftr__location a{margin-bottom:2px;}
@@ -204,8 +204,8 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .xyzChellseyftr__social{min-height:78px;padding-left:28px;}
 .xyzChellseyftr__social h3{margin:0 0 12px;color:#a90018;font-family:Georgia,"Times New Roman",serif;font-size:15px;line-height:18px;font-weight:700;}
 .xyzChellseyftr__socialLinks{display:flex;align-items:center;gap:9px;}
-.xyzChellseyftr__socialLinks a{width:23px;height:23px;border-radius:50%;background:#a90018;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:all .2s ease;}
-.xyzChellseyftr__socialLinks a i{font-size:12px;line-height:1;font-style:normal;}
+.xyzChellseyftr__socialLinks a{width:35px;height:35px;border-radius:50%;background:#a90018;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;transition:all .2s ease;}
+.xyzChellseyftr__socialLinks a i{font-size:18px;line-height:1;font-style:normal;}
 .xyzChellseyftr__socialLinks a:hover{background:#780012;color:#fff;transform:translateY(-2px);}
 @media(max-width:900px){.xyzChellseyftr__inner{grid-template-columns:1fr 1fr;gap:25px 0;padding:25px;}.xyzChellseyftr__brand{border-right:1px solid #e5e5e5;}.xyzChellseyftr__location:nth-child(3){border-right:none;}.xyzChellseyftr__social{padding-left:25px;}.xyzChellseyftr__logoImage{max-width:155px;height:54px;}}
 @media(max-width:600px){.xyzChellseyftr__inner{display:flex;flex-direction:column;align-items:stretch;padding:25px 20px;gap:0;}.xyzChellseyftr__brand,.xyzChellseyftr__location,.xyzChellseyftr__social{width:100%;min-height:auto;padding:18px 0;border-right:none;border-bottom:1px solid #e5e5e5;}.xyzChellseyftr__brand{padding-top:0;}.xyzChellseyftr__social{border-bottom:none;padding-bottom:0;}.xyzChellseyftr__logoImage{width:auto;max-width:180px;height:58px;}.xyzChellseyftr__brand p{margin-top:8px;font-size:11px;line-height:17px;}.xyzChellseyftr__location h3,.xyzChellseyftr__social h3{font-size:16px;line-height:20px;}.xyzChellseyftr__location a,.xyzChellseyftr__address{font-size:10px;line-height:16px;}.xyzChellseyftr__icon{font-size:10px;line-height:16px;}}
@@ -217,3 +217,5 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .xyzfoter span{color:#8a9096}
 @media(max-width:767px){.xyzfoter{justify-content:center;font-size:10px;gap:6px;text-align:center}}
 
+.xyzfoter{font-size:16px}
+.xyzfoter a,.xyzfoter .xyzseparator{font-size:16px}
