@@ -117,7 +117,7 @@ h1.home_h1{font-size:30px;font-weight:800;line-height:1.4;color:#51050f;max-widt
 .threliftxyzq-bottom-text{margin:0 0 5px;font-size:13.5px;line-height:1.4;color:#000;}
 .threliftxyzq-note{margin:8px 0 0;font-size:13.5px;line-height:1.3;font-style:italic;color:#000;}
 @media(max-width:900px){.threliftxyzq-grid-top{grid-template-columns:1fr 1fr;}.threliftxyzq-right-stack{grid-column:span 2;display:grid;grid-template-columns:1fr 1fr;}.threliftxyzq-grid-bottom{grid-template-columns:1fr;}}
-@media(max-width:600px){.threliftxyzq-section{padding:15px 10px;}.threliftxyzq-grid-top,.threliftxyzq-grid-bottom{grid-template-columns:1fr;}.threliftxyzq-right-stack{grid-column:auto;display:flex;}.threliftxyzq-box{padding:15px;}.threliftxyzq-heading{font-size:20px;}.threliftxyzq-subheading{font-size:19px;}.threliftxyzq-text,.threliftxyzq-intro,.threliftxyzq-list li,.threliftxyzq-career-list li,.threliftxyzq-black-list li{font-size:12px;}.threliftxyzq-icon{flex-basis:50px;width:50px;height:50px;}}
+@media(max-width:600px){.threliftxyzq-section{padding:15px 10px;}.threliftxyzq-grid-top,.threliftxyzq-grid-bottom{grid-template-columns:1fr;}.threliftxyzq-right-stack{grid-column:auto;display:flex;}.threliftxyzq-box{padding:15px;}.threliftxyzq-heading{font-size:20px;}.threliftxyzq-subheading{font-size:19px;}.threliftxyzq-text,.threliftxyzq-intro,.threliftxyzq-list li,.threliftxyzq-career-list li,.threliftxyzq-black-list li{font-size:13.5px;}.threliftxyzq-icon{flex-basis:50px;width:50px;height:50px;}}
 /* =========================================
    MESOTHERAPY LAYOUT
    CLASS PREFIX: mesothexyz
